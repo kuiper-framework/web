@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace kuiper\web\annotation\filter;
+namespace kuiper\web\middleware;
 
-abstract class AbstractFilter implements FilterInterface
+abstract class AbstractMiddlewareFactory implements MiddlewareFactory
 {
     /**
      * @var int
